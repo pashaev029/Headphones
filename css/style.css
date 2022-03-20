@@ -1,0 +1,698 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-size: 14px;
+  font-family: arial;
+}
+
+@font-face {
+  font-family: alex-brush;
+  src: url("../fonts/AlexBrush-Regular.ttf");
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/girl.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.layer {
+  width: 100%;
+  height: 700px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.navbar-icon {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navbar-icon li:first-child {
+  float: left;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.navbar-icon li:last-child {
+  margin-top: 40px;
+  margin-right: 50px;
+  float: right;
+}
+
+.navbar-icon i {
+  margin-left: 25px;
+}
+
+.site-logo {
+  box-sizing: border-box;
+  margin: 0px;
+  display: inline-block;
+}
+
+.navbar div {
+  background-position: center;
+  margin-left: 730px;
+  margin-top: 25px;
+}
+
+.navbar-text {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+
+  /* height: 60px; */
+  background: rgba(56, 56, 56, 0.5);
+}
+
+.menu {
+  list-style-type: none;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.menu li {
+  display: inline;
+  cursor: pointer;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu li:hover {
+  border-bottom: 2px solid #15ac69;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.headphones {
+  height: 499px;
+  color: white;
+}
+
+.headphone-text {
+  float: left;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.headphone-text p:nth-child(4) {
+  font-size: 12px;
+}
+
+.headphone-text button {
+  height: 30px;
+  width: 100px;
+  font-size: 10px;
+  font-weight: 600;
+  border: 2px #15ac69 solid;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #15ac69;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 2px;
+  cursor: pointer;
+  color: white;
+}
+
+.hd-image {
+  width: 400px;
+  height: 400px;
+}
+
+.hd-image img {
+  width: 400px;
+  height: 400px;
+  float: right;
+  position: absolute;
+  right: 10%;
+}
+
+.headphones p:first-child {
+  font-family: alex-brush;
+  font-size: 3em;
+  margin: 0;
+}
+
+.headphones p:nth-child(2) {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 700;
+  font-family: arial;
+  color: #4c9900;
+}
+
+.headphones p:nth-child(3) {
+  font-size: 50px;
+  margin: 0;
+  color: #4c9900;
+}
+
+.tab {
+  height: 60px;
+  margin-top: 55px;
+  margin-left: 60px;
+}
+
+.tab-bar {
+  height: 100%;
+  width: 245px;
+  margin: 0px;
+  display: inline-block;
+  background-color: #404040;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.tab-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.tab-bar:hover {
+  background-color: #15ac69;
+}
+
+.watch {
+  height: 400px;
+  width: 15%;
+  background-color: #15ac69;
+  text-align: center;
+  display: inline-block;
+}
+
+.watch ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.watch ul li {
+  padding-top: 15px;
+  font-size: 50px;
+  list-style-type: none;
+  color: white;
+}
+
+.watch li p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.top-sale {
+  height: 400px;
+  width: 85%;
+  float: right;
+  background-color: #efefef;
+}
+
+.top-product {
+  width: 100%;
+  height: 400px;
+}
+
+.top-seller {
+  height: 340px;
+  width: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 20px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.top-pictures img {
+  width: 220px;
+  height: 260px;
+}
+
+.collection-header {
+  width: 30%;
+  height: 200px;
+  margin: 0 36%;
+  text-align: center;
+}
+
+#section-3 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#font-alex {
+  font-family: alex-brush;
+  font-size: 2em;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  color: #15ac69;
+}
+
+#section-p {
+  font-size: 3em;
+  margin: 0px;
+  font-weight: 700;
+}
+
+#section-p2 {
+  color: gray;
+}
+
+#top-line {
+  width: 61%;
+}
+
+.collection {
+  width: 80%;
+  height: 800px;
+  margin: 0px 10%;
+}
+
+.sales-product {
+  width: 22%;
+  height: 360px;
+  float: left;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.sales-product img {
+  width: 100%;
+  height: 70%;
+  border: 1px solid lightgray;
+}
+
+.sales-product p {
+  margin-top: 10px;
+}
+
+.view-button {
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 2px #15ac69 solid;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #15ac69;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+}
+
+.offer {
+  width: 100%;
+  height: 400px;
+  clear: both;
+}
+
+.left-side {
+  width: 30%;
+  height: 90%;
+  background-image: url("../images/mac.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+.offer-layer {
+  width: 100%;
+  height: 100%;
+  background: rgba(60, 182, 128, 0.9);
+}
+
+.right-side {
+  width: 70%;
+  height: 90%;
+  background-image: url("../images/keyboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+
+.mac-layer {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.mac-right {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.mac-right a:last-child {
+  background-color: white;
+  color: black;
+  border-color: white;
+  margin-left: 10px;
+  padding: 14px 35px;
+}
+
+.mac-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#mac-images {
+  position: absolute;
+  width: 513px;
+  margin-top: 21px;
+  margin-left: -100px;
+}
+
+#new-offer {
+  font-family: alex-brush;
+  font-size: 2em;
+  color: #fff;
+  margin: 0;
+  padding-top: 47px;
+}
+
+#mac-layer {
+  color: #15ac69;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#mac-text {
+  color: lightgray;
+}
+
+.most-popular {
+  width: 100%;
+  height: auto;
+}
+
+.new-smart {
+  width: 60%;
+  height: 400px;
+  margin: 10px 20%;
+}
+
+.left-smart {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.left-text {
+  height: 40%;
+  width: 70%;
+  text-align: justify;
+  margin-top: 100px;
+}
+
+.left-text h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.left-text p:nth-child(2) {
+  font-size: 35px;
+  margin: 0;
+}
+
+.left-text p:nth-child(3) {
+  margin-top: 10px;
+}
+
+.selection {
+  width: 70%;
+  height: 20%;
+}
+
+.phone-selection {
+  width: 70px;
+  height: 76px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.phone-selection img {
+  width: 80%;
+  height: 75%;
+  margin: 0;
+  border: 1px solid lightgray;
+}
+
+.phone-selection img:hover {
+  border: 1px solid #15ac69;
+}
+
+.selection div:first-child {
+  margin-left: 0;
+}
+
+.right-smart {
+  width: 40%;
+  height: 100%;
+  background-color: lightgray;
+  float: right;
+}
+
+.right-smart img {
+  height: 330px;
+  margin-top: 40px;
+  position: absolute;
+  margin-left: -160px;
+}
+
+.left-tv {
+  width: 40%;
+  height: 100%;
+  background-color: lightgray;
+  float: left;
+}
+
+.left-tv img {
+  height: 330px;
+  margin-top: 60px;
+  position: absolute;
+  margin-left: 60px;
+}
+
+.right-text {
+  height: 100%;
+  width: 60%;
+  float: right;
+  text-align: justify;
+}
+
+.tv-text {
+  height: 38%;
+  width: 40%;
+  padding-top: 100px;
+  padding-left: 237px;
+}
+
+.right-text h1 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.right-text p:nth-child(2) {
+  font-size: 23px;
+  margin: 0;
+}
+
+.right-text p:nth-child(3) {
+  margin-top: 10px;
+}
+
+.mini-image {
+  width: 54%;
+  height: 20%;
+  float: right;
+}
+
+.rating {
+  width: 100%;
+  height: 650px;
+  background-color: #efefef;
+}
+
+.best-product {
+  width: 100%;
+  height: 280px;
+}
+
+.bests {
+  height: 80%;
+  width: 15%;
+  float: left;
+  margin-left: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.bests img {
+  height: 100%;
+  width: 100%;
+}
+
+.section-4 {
+  width: 100%;
+  height: 600px;
+}
+
+.section-left {
+  width: 29%;
+  height: 600px;
+  float: left;
+  background-color: #f6f5f1;
+}
+
+.img1-text {
+  width: 60%;
+  height: 48%;
+  float: right;
+  margin-top: 120px;
+  margin-right: 21px;
+}
+
+.img1-text a {
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 2px #15ac69 solid;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #15ac69;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+}
+
+.section-right {
+  width: 30%;
+  height: 600px;
+  background-color: lightgray;
+  float: right;
+  position: absolute;
+  right: 0px;
+  background-color: #f6f5f1;
+}
+
+.img4-text {
+  width: 49%;
+  height: 40%;
+  float: right;
+  margin-top: -97px;
+  margin-right: 133px;
+}
+
+.section-top1 {
+  width: 40%;
+  height: 295px;
+  background-color: #e0e4e5;
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.img2-text {
+  width: 49%;
+  height: 40%;
+  float: right;
+}
+
+.img2-text a {
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 2px #15ac69 solid;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #15ac69;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+}
+
+.section-top2 {
+  width: 40%;
+  height: 295px;
+  background-color: black;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #f6f5f1;
+}
+
+.img3-text {
+  height: 62%;
+  width: 45%;
+  margin-left: 30px;
+}
+
+.img3-text a {
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 2px #15ac69 solid;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #15ac69;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+}
+
+.section-5 {
+  width: 100%;
+  height: 560px;
+  margin-top: 20px;
+  background-image: url(../images/concert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.speaker-right {
+  width: 44%;
+  height: 64%;
+  float: right;
+  margin-top: 70px;
+}
+
+.section-6 {
+  width: 100%;
+}
+
+.teams {
+  width: 62%;
+  height: 200px;
+  margin: 20px 20%;
+}
+
+.team-logo {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
